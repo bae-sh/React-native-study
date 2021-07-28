@@ -44,7 +44,7 @@ const Title = styled.Text`
 `;
 const Button2 = props => {
   return (
-    <Pressable style={{backgroundColor: 'green', width: 200}}>
+    <Pressable style={{backgroundColor: 'green', width: 200, backg}}>
       <Text>123</Text>
     </Pressable>
   );

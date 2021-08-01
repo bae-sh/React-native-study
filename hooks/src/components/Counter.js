@@ -15,7 +15,7 @@ const Counter = () => {
       <Button
         title="+"
         onPress={() => {
-          setCount(prevCount => prevCount + 1);
+          setCount(prevCount => prevCount + 1); // 이전값을 가져와서 설정??
           console.log(`count: ${count}`);
         }}></Button>
       <Button

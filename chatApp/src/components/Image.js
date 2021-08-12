@@ -45,7 +45,7 @@ const Image = ({ url, imageStyle, rounded, showButton, onChangeImage }) => {
   useEffect(() => {
     (async () => {
       try {
-        if (Platform.OS !== "web") {
+        if (Platform.OS !== "ios") {
           const { status } =
             await ImagePicker.requestMediaLibraryPermissionsAsync();
           if (status !== "granted") {
